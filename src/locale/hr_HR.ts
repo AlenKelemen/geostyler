@@ -439,7 +439,7 @@ const hr_HR: GeoStylerLocale = {
     notSupported: 'Not supported by selected parser.',
     partiallySupported: 'Only partially supported by selected parser.'
   },
-  ...antd_en_US
+  ...antd_hr_HR
 };
 
-export default en_US;
+export default hr_HR;

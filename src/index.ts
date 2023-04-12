@@ -135,12 +135,14 @@ import en_US from './locale/en_US';
 import es_ES from './locale/es_ES';
 import fr_FR from './locale/fr_FR';
 import zh_CN from './locale/zh_CN';
+import hr_HR from './locale/zh_CN';
 const locale = {
   de_DE,
   en_US,
   es_ES,
   fr_FR,
-  zh_CN
+  zh_CN,
+  hr_HR
 };
 
 export {

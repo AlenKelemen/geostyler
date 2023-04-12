@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,21 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   <script src="../browser/geostyler.js"></script>
-  <link rel="stylesheet" href="../browser/geostyler.css"/>
-  <link rel="stylesheet" href="../node_modules/antd/dist/antd.css"/>
-  <link rel="stylesheet" href="../node_modules/ol/ol.css"/>
+  <script src="../node_modules/antd/dist/antd.js"></script>
+  <link rel="stylesheet" href="../browser/geostyler.css" />
+  <link rel="stylesheet" href="../node_modules/antd/dist/antd.css" />
+  <link rel="stylesheet" href="../node_modules/ol/ol.css" />
 </head>
+
 <body>
-  <div id="root" ></div>
-  <div style="display: flex;">
-    <div id="preview" style="flex: 1;"></div>
-    <textarea id="textual_style" style="flex: 1; height: 300px;"></textarea>
+  <div id="'main">
+    <div id="root"></div>
+    <div style="display: flex;">
+      <div id="preview" style="flex: 1;"></div>
+      <textarea id="textual_style" style="flex: 1; height: 300px;"></textarea>
+    </div>
   </div>
+  
   <script defer>
     const root = ReactDOM.createRoot(
       document.getElementById('root')
@@ -41,9 +47,9 @@
     };
     const renderPreview = () => {
       const gsPreview = React.createElement(GeoStyler.PreviewMap, {
-          style: style,
-          mapHeight: 300
-        });
+        style: style,
+        mapHeight: 300
+      });
       preview.render(gsPreview);
     };
     const geostyler = React.createElement(GeoStyler.Style, {
@@ -55,7 +61,9 @@
         renderPreview();
       }
     });
-    root.render(geostyler);
+    const configProvider = React.createElement(GeoStyler.ConfigProvider, { locale: GeoStyler.locale['fr_FR'] }, geostyler)
+    root.render(configProvider);
   </script>
 </body>
+
 </html>
