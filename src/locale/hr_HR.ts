@@ -31,413 +31,413 @@ import { GeoStylerLocale } from './locale';
 const hr_HR: GeoStylerLocale = {
   StyleFieldContainer: {
     nameFieldLabel: 'Ime',
-    nameFieldPlaceholder: 'Upiši ime',
+    nameFieldPlaceholder: 'Unesite ime',
     titleFieldLabel: 'Naslov',
-    titleFieldPlaceholder: 'Upiši naslov'
+    titleFieldPlaceholder: 'Unesite naslov'
   },
   Editor: {
     kindFieldLabel: 'Vrsta'
   },
   RuleFieldContainer: {
     nameFieldLabel: 'Ime',
-    nameFieldPlaceholder: 'Upiši ime'
+    nameFieldPlaceholder: 'Unesite ime'
   },
   BulkEditModals: {
-    colorLabel: 'Odaberi boju',
-    radiusLabel: 'Odaberi polumijer',
-    opacityLabel: 'Odaberi prozirnost',
-    symbolLabel: 'Odaberi simbol',
+    colorLabel: 'Izaberite boju',
+    radiusLabel: 'Izaberite opseg',
+    opacityLabel: 'Odredite prozirnost',
+    symbolLabel: 'Izaberite znak',
     imageFieldLabel: 'Izvor',
-    imageFieldTooltipLabel: 'Otvori galeriju'
+    imageFieldTooltipLabel: 'Otvori Galeriju'
   },
   BulkEditor: {
-    colorLabel: 'Odaberi boju',
-    radiusLabel: 'Odaberi polumijer',
-    opacityLabel: 'Odaberi prozirnost',
-    symbolLabel: 'Odaberi simbol',
+    colorLabel: 'Izaberite boju',
+    radiusLabel: 'Izaberite opseg',
+    opacityLabel: 'Odredite prozirnost',
+    symbolLabel: 'Izaberite znak',
     imageFieldLabel: 'Izvor'
   },
   Rule: {
-    removeRuleBtnText: 'Remove Rule',
-    scaleFieldTitle: 'Use scale',
-    filterFieldTitle: 'Use filter',
-    nameFieldLabel: 'Name',
-    nameFieldPlaceholder: 'Enter name',
-    attributeLabel: 'Attribute',
-    attributePlaceholderString: 'Choose attribute',
-    attributeValidationHelpString: 'Please choose an attribute',
+    removeRuleBtnText: 'Ukloni pravilo',
+    scaleFieldTitle: 'Koristi skalu',
+    filterFieldTitle: 'Koristi filter',
+    nameFieldLabel: 'Ime',
+    nameFieldPlaceholder: 'Unesite ime',
+    attributeLabel: 'Svojstvo',
+    attributePlaceholderString: 'Izaberite svojstvo',
+    attributeValidationHelpString: 'Odaberite svojstvo',
     operatorLabel: 'Operator',
-    operatorPlaceholderString: 'Choose operator',
-    operatorValidationHelpString: 'Please choose an operator',
-    valueLabel: 'Value',
-    valuePlaceholder: 'Enter value',
-    valueValidationHelpString: 'Please enter a value'
+    operatorPlaceholderString: 'Odaberite operatora',
+    operatorValidationHelpString: 'Odaberite operatora',
+    valueLabel: 'Vrijednost',
+    valuePlaceholder: 'Unesite vrijednost',
+    valueValidationHelpString: 'Unesite vrijednost'
   },
   Style: {
-    addRuleBtnText: 'Add Rule',
-    cloneRulesBtnText: 'Clone Rules',
-    removeRulesBtnText: 'Remove Rules',
-    nameFieldLabel: 'Name',
-    nameFieldPlaceholder: 'Enter Name',
-    titleFieldLabel: 'Title',
-    titleFieldPlaceholder: 'Enter Title',
-    colorLabel: 'Select color',
-    radiusLabel: 'Select radius',
-    opacityLabel: 'Select opacity',
-    symbolLabel: 'Select symbol',
-    multiEditLabel: 'Multi edit',
-    ruleGeneratorWindowBtnText: 'Classification'
+    addRuleBtnText: 'Dodaj pravilo',
+    cloneRulesBtnText: 'Kopiraj pravilo',
+    removeRulesBtnText: 'Ukloni pravilo',
+    nameFieldLabel: 'Ime',
+    nameFieldPlaceholder: 'Unesite ime',
+    titleFieldLabel: 'Naslov',
+    titleFieldPlaceholder: 'Unesi naslov',
+    colorLabel: 'Izaberite boju',
+    radiusLabel: 'Izaberite opseg',
+    opacityLabel: 'Odredite prozirnost',
+    symbolLabel: 'Izaberite znak',
+    multiEditLabel: 'Višestruko uređivanje',
+    ruleGeneratorWindowBtnText: 'Klasificikacija'
   },
   CardStyle: {
-    styleTitle: 'Style',
-    classificationTitle: 'Classification',
-    multiEditTitle: 'Multi edit',
-    symbolizerTitle: 'Symbolizer',
+    styleTitle: 'Stil',
+    classificationTitle: 'Klasificikacija',
+    multiEditTitle: 'Višestruko uređivanje',
+    symbolizerTitle: 'Simbolizator',
     filterTitle: 'Filters',
-    iconLibrariesTitle: 'Gallery'
+    iconLibrariesTitle: 'Galerija'
   },
   StyleOverview: {
-    styleTitle: 'Style'
+    styleTitle: 'Stil'
   },
   RuleOverview: {
-    ruleTitle: 'Rule'
+    ruleTitle: 'Pravilo'
   },
   Symbolizers: {
-    symbolizersTitle: 'Symbolizers',
-    addSymbolizer: 'Add symbolizer',
-    showAll: 'Show all',
-    hide: 'Hide'
+    symbolizersTitle: 'Simbolizatori',
+    addSymbolizer: 'Dodaj simbolizator',
+    showAll: 'Prikaži sve',
+    hide: 'Sakrij'
   },
   StyleLoader: {
-    label: 'Load Style: ',
-    uploadButtonLabel: 'Upload Style'
+    label: 'Učitaj stil: ',
+    uploadButtonLabel: 'Prenesi Sil'
   },
   DataLoader: {
-    label: 'Load Data: ',
-    uploadButtonLabel: 'Upload Data'
+    label: 'Učitaj podatke: ',
+    uploadButtonLabel: 'Prenesi podatke'
   },
   WfsParserInput: {
-    requestButtonText: 'Get Data',
+    requestButtonText: 'Dohvati podatke',
     urlLabel: 'Url',
-    versionLabel: 'Version',
-    typeNameLabel: 'FeatureTypeName',
-    featureIDLabel: 'FeatureID',
-    propertyNameLabel: 'PropertyName',
-    maxFeaturesLabel: 'MaxFeatures',
-    fetchParamsLabel: 'fetchParams',
-    srsNameLabel: 'SrsName'
+    versionLabel: 'Verzija',
+    typeNameLabel: 'ImeTipaObjekta',
+    featureIDLabel: 'ObjektID',
+    propertyNameLabel: 'ImeSvojstva',
+    maxFeaturesLabel: 'MaksObjekata',
+    fetchParamsLabel: 'dohvatiParametre',
+    srsNameLabel: 'SrsIme'
   },
   CodeEditor: {
-    downloadButtonLabel: 'Save as File',
-    copyButtonLabel: 'Copy to Clipboard',
-    formatSelectLabel: 'Format',
-    styleCopied: 'Style copied to clipboard!',
+    downloadButtonLabel: 'Spremi kao',
+    copyButtonLabel: 'Kopiraj u međuspremnik',
+    formatSelectLabel: 'Formatiraj',
+    styleCopied: 'Stil kopiran u međuspremnik!',
     writeFeedback: 'Feedback while writing with',
     readFeedback: 'Feedback while reading with',
   },
   ParserFeedback: {
-    notSupported: 'is not supported by used parser',
-    partiallySupported: 'is only partially supported by used parser'
+    notSupported: 'Nije podržano od strane korštenog parsera',
+    partiallySupported: 'Samo je djelimično podržano od strane korištenog parsera'
   },
   WellKnownNameEditor: {
-    fillColorLabel: 'Fill-Color',
-    fillOpacityLabel: 'Fill-Opacity',
-    offsetXLabel: 'Offset X',
-    offsetYLabel: 'Offset Y',
-    opacityLabel: 'Opacity',
+    fillColorLabel: 'Ispuna-Boja',
+    fillOpacityLabel: 'Ispuna-Prozirnost',
+    offsetXLabel: 'Kompenziraj X',
+    offsetYLabel: 'Kompenziraj Y',
+    opacityLabel: 'Prozirnost',
     radiusLabel: 'Radius',
-    rotateLabel: 'Rotation',
-    strokeColorLabel: 'Stroke-Color',
-    strokeOpacityLabel: 'Stroke-Opacity',
-    strokeWidthLabel: 'Stroke-Width',
+    rotateLabel: 'Rotacija',
+    strokeColorLabel: 'Stroke-boja',
+    strokeOpacityLabel: 'Stroke-Prozirnost',
+    strokeWidthLabel: 'Stroke-Širina',
   },
   FillEditor: {
-    opacityLabel: 'Opacity',
-    fillOpacityLabel: 'Fill-Opacity',
-    outlineOpacityLabel: 'Stroke-Opacity',
-    fillColorLabel: 'Fill-Color',
-    outlineColorLabel: 'Outline-Color',
-    outlineWidthLabel: 'Outline-Width',
-    outlineDasharrayLabel: 'Outline-Dasharray',
-    graphicFillTypeLabel: 'Graphic Fill Type'
+    opacityLabel: 'Prozirnost',
+    fillOpacityLabel: 'Ispuna-Prozirnost',
+    outlineOpacityLabel: 'Stroke-Prozirnost',
+    fillColorLabel: 'Ispuna-Boja',
+    outlineColorLabel: 'Obrub-Boja',
+    outlineWidthLabel: 'Obrub-Širina',
+    outlineDasharrayLabel: 'Obrub-Dasharray',
+    graphicFillTypeLabel: 'Vrsta grafičke ispune'
   },
   IconEditor: {
-    iconTooltipLabel: 'Open Gallery',
-    imageLabel: 'Source',
+    iconTooltipLabel: 'Otvori galeriju',
+    imageLabel: 'Izvor',
     imagePlaceholder: 'URL to Icon',
-    offsetXLabel: 'Offset X',
-    offsetYLabel: 'Offset Y',
-    opacityLabel: 'Opacity',
+    offsetXLabel: 'Kompenziraj X',
+    offsetYLabel: 'Kompenziraj Y',
+    opacityLabel: 'Prozirnost',
     rotateLabel: 'Rotation',
-    sizeLabel: 'Size',
+    sizeLabel: 'Veličina',
   },
   MarkEditor: {
-    wellKnownNameFieldLabel: 'Symbol'
+    wellKnownNameFieldLabel: 'Simbol'
   },
   LineEditor: {
-    capLabel: 'Cap',
-    colorLabel: 'Color',
-    dashLabel: 'Dash Pattern',
-    dashOffsetLabel: 'Dash Offset',
-    graphicFillTypeLabel: 'Graphic Fill Type',
-    graphicStrokeTypeLabel: 'Graphic Stroke Type',
-    joinLabel: 'Join',
-    opacityLabel: 'Opacity',
+    capLabel: 'Gornja granica',
+    colorLabel: 'Boja',
+    dashLabel: 'Crtica uzorak',
+    dashOffsetLabel: 'Prijeboj s crticom',
+    graphicFillTypeLabel: 'Vrsta grafičke ispune',
+    graphicStrokeTypeLabel: 'Tip grafičke ispune',
+    joinLabel: 'Pridruži',
+    opacityLabel: 'Prozirnost',
     perpendicularOffsetLabel: 'Perpendicular Offset',
     widthLabel: 'Width',
   },
   TextEditor: {
     fontLabel: 'Font',
     templateFieldLabel: 'Template',
-    opacityLabel: 'Text-Opacity',
-    colorLabel: 'Text-Color',
-    sizeLabel: 'Text-Size',
-    offsetXLabel: 'Offset X',
-    offsetYLabel: 'Offset Y',
-    attributeComboPlaceholder: 'Select Field',
-    rotateLabel: 'Rotation',
-    haloColorLabel: 'Halo-Color',
-    haloWidthLabel: 'Halo-Width',
-    attributeNotFound: 'Field not found'
+    opacityLabel: 'Tekst-Prozirnost',
+    colorLabel: 'Tekst-Boja',
+    sizeLabel: 'Tekst-Veličina',
+    offsetXLabel: 'Kompenziraj X',
+    offsetYLabel: 'Kompenziraj Y',
+    attributeComboPlaceholder: 'Izaberi polje',
+    rotateLabel: 'Rotacija',
+    haloColorLabel: 'Halo-Boja',
+    haloWidthLabel: 'Halo-Širina',
+    attributeNotFound: 'Polje nije pronađeno'
   },
   PropTextEditor: {
-    propFieldLabel: 'Field',
-    opacityLabel: 'Text-Opacity',
+    propFieldLabel: 'Polje',
+    opacityLabel: 'Tekst-Prozirnost',
     fontLabel: 'Font',
-    colorLabel: 'Text-Color',
-    sizeLabel: 'Text-Size',
-    offsetXLabel: 'Offset X',
-    offsetYLabel: 'Offset Y',
-    attributeComboPlaceholder: 'Select Field',
-    rotateLabel: 'Rotation',
-    haloColorLabel: 'Halo-Color',
-    haloWidthLabel: 'Halo-Width'
+    colorLabel: 'Tekst-Boja',
+    sizeLabel: 'Tekst-Veličina',
+    offsetXLabel: 'Kompenziraj X',
+    offsetYLabel: 'Kompenziraj Y',
+    attributeComboPlaceholder: 'Odaberi polje',
+    rotateLabel: 'Rotacija',
+    haloColorLabel: 'Halo-Boja',
+    haloWidthLabel: 'Halo-Širina'
   },
   RasterEditor: {
-    opacityLabel: 'Opacity',
-    hueRotateLabel: 'Hue Rotation',
-    brightnessMinLabel: 'Min. Brightness',
-    brightnessMaxLabel: 'Max. Brightness',
-    saturationLabel: 'Saturation',
-    contrastLabel: 'Contrast',
-    fadeDurationLabel: 'Fade Duration',
-    resamplingLabel: 'Resampling',
-    contrastEnhancementLabel: 'Contrast Enhancement',
+    opacityLabel: 'Prozirnost',
+    hueRotateLabel: 'Nijansa Rotacija',
+    brightnessMinLabel: 'Min. Svjetlina',
+    brightnessMaxLabel: 'Max. Svjetlina',
+    saturationLabel: 'Zasićenost',
+    contrastLabel: 'Kontrast',
+    fadeDurationLabel: 'Trajanje Blijeđenja',
+    resamplingLabel: 'Ponovno uzrokovanje',
+    contrastEnhancementLabel: 'Poboljšanje kontrasta',
     gammaValueLabel: 'Gamma',
-    colorMapLabel: 'Color Map',
-    symbolizerLabel: 'Symbolizer',
-    channelSelectionLabel: 'Channel Selection'
+    colorMapLabel: 'Mapa boja',
+    symbolizerLabel: 'Simbolizator',
+    channelSelectionLabel: 'Odabir kanala'
   },
   RasterChannelEditor: {
-    channelSelectionLabel: 'Edit Channels',
-    redBandLabel: 'Red',
-    greenBandLabel: 'Green',
-    blueBandLabel: 'Blue',
-    grayBandLabel: 'Gray',
-    channelSelectionGrayLabel: 'Gray',
+    channelSelectionLabel: 'Uredi kanale',
+    redBandLabel: 'Crvena',
+    greenBandLabel: 'Zelena',
+    blueBandLabel: 'Plava',
+    grayBandLabel: 'Siva',
+    channelSelectionGrayLabel: 'Siva',
     channelSelectionRgbLabel: 'RGB',
-    titleLabel: 'Channel Selection'
+    titleLabel: 'Odabir kanala'
   },
   ColorMapEditor: {
-    typeLabel: 'Type',
-    extendedLabel: 'Color Depth',
-    colorMapEntriesLabel: 'Colormap',
-    titleLabel: 'Color Map',
-    nrOfClassesLabel: 'Nr. of classes',
-    colorRampLabel: 'Color Ramp',
-    colorLabel: 'Color',
-    quantityLabel: 'Quantity',
-    labelLabel: 'Label',
-    opacityLabel: 'Opacity'
+    typeLabel: 'Tip',
+    extendedLabel: 'Dubina boje',
+    colorMapEntriesLabel: 'Mapa boja',
+    titleLabel: 'Mapa boja',
+    nrOfClassesLabel: 'Broj klasa',
+    colorRampLabel: 'Intenzitet boje',
+    colorLabel: 'Boja',
+    quantityLabel: 'Količina',
+    labelLabel: 'Oznaka',
+    opacityLabel: 'Prozirnost'
   },
   Preview: {
-    openEditorText: 'Edit Symbolizer',
-    closeEditorText: 'Close Editor'
+    openEditorText: 'Uredi Simbolizator',
+    closeEditorText: 'Zatvori editor'
   },
   ColorField: {
-    clearText: 'Clear',
-    closeText: 'Close',
-    editText: 'Change',
-    chooseText: 'Pick',
+    clearText: 'Očisti',
+    closeText: 'Zatvori',
+    editText: 'Promjeni',
+    chooseText: 'Izaberi',
   },
   KindField: {
     symbolizerKinds: {
-      Mark: 'Mark',
-      Fill: 'Fill',
-      Icon: 'Icon',
-      Line: 'Line',
-      Text: 'Text',
+      Mark: 'Oznaka',
+      Fill: 'Ispuna',
+      Icon: 'Ikona',
+      Line: 'Linija',
+      Text: 'Tekst',
       Raster: 'Raster'
     }
   },
   GraphicTypeField: {
-    Mark: 'Mark',
-    Icon: 'Icon'
+    Mark: 'Oznaka',
+    Icon: 'Ikona'
   },
   RgbChannelField: {
-    redLabel: 'Red band',
-    greenLabel: 'Green band',
-    blueLabel: 'Blue band'
+    redLabel: 'Crvena traka',
+    greenLabel: 'Zelena traka',
+    blueLabel: 'Plava traka'
   },
   GrayChannelField: {
-    grayLabel: 'Gray band'
+    grayLabel: 'Siva traka'
   },
   ScaleDenominator: {
-    minScaleDenominatorLabelText: 'Min. Scale',
-    maxScaleDenominatorLabelText: 'Max. Scale',
-    minScaleDenominatorPlaceholderText: 'Enter min. Scale (Optional)',
-    maxScaleDenominatorPlaceholderText: 'Enter max. Scale (Optional)'
+    minScaleDenominatorLabelText: 'Min. Skala',
+    maxScaleDenominatorLabelText: 'Max. SKala',
+    minScaleDenominatorPlaceholderText: 'Unesi min. Skalu (Neobavezno)',
+    maxScaleDenominatorPlaceholderText: 'Unesi maks. Skalu (Neobavezno)'
   },
   WellKnownNameField: {
     wellKnownNames: {
-      Circle: 'Circle',
-      Square: 'Square',
-      Triangle: 'Triangle',
-      Star: 'Star',
-      Cross: 'Cross',
+      Circle: 'Krug',
+      Square: 'Kocka',
+      Triangle: 'Trokut',
+      Star: 'Zvijezda',
+      Cross: 'Križ',
       X: 'X'
     }
   },
   ColorMapEntryField: {
-    colorLabel: 'Color',
-    labelLabel: 'Legend Label',
-    quantityLabel: 'Quantity',
-    opacityLabel: 'Opacity'
+    colorLabel: 'Boja',
+    labelLabel: 'Oznaka legende',
+    quantityLabel: 'Količina',
+    opacityLabel: 'Prozirnost'
   },
   ChannelField: {
-    sourceChannelNameLabel: 'Channel Name',
-    contrastEnhancementTypeLabel: 'Contrast Enhancement',
+    sourceChannelNameLabel: 'Ime Kanala',
+    contrastEnhancementTypeLabel: 'Poboljšanje kontrasta',
     gammaValueLabel: 'Gamma'
   },
   ColorMapTypeField: {
-    rampMapTypeLabel: 'Interpolated',
-    intervalsMapTypeLabel: 'Intervals',
-    valuesMapTypeLabel: 'Values'
+    rampMapTypeLabel: 'Interpolirano',
+    intervalsMapTypeLabel: 'Interval',
+    valuesMapTypeLabel: 'Vrijednost'
   },
   SymbolizerEditor: {
-    kindFieldLabel: 'Kind',
-    unknownSymbolizerText: 'Symbolizer unknown!'
+    kindFieldLabel: 'Vrsta',
+    unknownSymbolizerText: 'Simbolizator nepoznat!'
   },
   SymbolizerEditorWindow: {
-    symbolizersEditor: 'Symbolizer Editor'
+    symbolizersEditor: 'Urednica simbolizatora'
   },
   FilterOverview: {
-    filterTitle: 'Filters'
+    filterTitle: 'Filteri'
   },
   FilterEditorWindow: {
-    filterEditor: 'Filter Editor'
+    filterEditor: 'Urednica filtra'
   },
   MultiEditor: {
-    add: 'Add',
-    remove: 'Remove'
+    add: 'Dodaj',
+    remove: 'Ukloni'
   },
   UploadButton: {
-    upload: 'Upload'
+    upload: 'Prenesi'
   },
   FilterTree: {
-    andDrpdwnLabel: 'AND-Filter',
-    orDrpdwnLabel: 'OR-Filter',
-    notDrpdwnLabel: 'NOT-Filter',
-    comparisonDrpdwnLabel: 'Comparison-Filter',
-    addFilterLabel: 'Add Filter',
-    changeFilterLabel: 'Change Filter',
-    removeFilterLabel: 'Remove Filter',
-    andFilterText: 'AND',
-    orFilterText: 'OR',
-    notFilterText: 'NOT'
+    andDrpdwnLabel: 'I-Filter',
+    orDrpdwnLabel: 'ILI-Filter',
+    notDrpdwnLabel: 'NE-Filter',
+    comparisonDrpdwnLabel: 'Usporedba-Filter',
+    addFilterLabel: 'Dodaj Filter',
+    changeFilterLabel: 'Promjeni Filter',
+    removeFilterLabel: 'Ukloni Filter',
+    andFilterText: 'I',
+    orFilterText: 'ILI',
+    notFilterText: 'NE'
   },
   RuleTable: {
-    symbolizersColumnTitle: 'Symbolizers',
-    nameColumnTitle: 'Name',
+    symbolizersColumnTitle: 'Simbolizator',
+    nameColumnTitle: 'Ime',
     filterColumnTitle: 'Filter',
-    minScaleColumnTitle: 'Min. Scale',
-    maxScaleColumnTitle: 'Max. Scale',
-    amountColumnTitle: 'Amount',
-    duplicatesColumnTitle: 'Duplicates'
+    minScaleColumnTitle: 'Min. Skala',
+    maxScaleColumnTitle: 'Max. Skala',
+    amountColumnTitle: 'Količina',
+    duplicatesColumnTitle: 'Duplikati'
   },
   Rules: {
-    rulesTitle: 'Rules',
-    multiEdit: 'Select',
-    addRule: 'Add',
-    classification: 'Classification',
-    remove: 'Remove',
-    clone: 'Clone',
-    edit: 'Edit',
-    defaultRuleTitle: 'Untitled'
+    rulesTitle: 'Pravila',
+    multiEdit: 'Odabir',
+    addRule: 'Dodaj',
+    classification: 'Klasificikacija',
+    remove: 'Ukloni',
+    clone: 'Kloniraj',
+    edit: 'Uredi',
+    defaultRuleTitle: 'Nenaslovljeno'
   },
   RuleReorderButtons: {
-    ruleMoveUpTip: 'Move rule one position up',
-    ruleMoveDownTip: 'Move rule one position down'
+    ruleMoveUpTip: 'Gurni pravilo gore',
+    ruleMoveDownTip: 'Gurni pravilo dolje'
   },
   RuleGenerator: {
-    attribute: 'Attribute',
-    generateButtonText: 'Classify',
-    levelOfMeasurement: 'Level of Measurement',
-    nominal: 'Nominal',
-    ordinal: 'Ordinal',
-    cardinal: 'Cardinal',
-    numberOfRules: 'Number of Classes',
-    colorRamp: 'Color Ramp',
-    colorSpace: 'Color Space',
-    colorRampPlaceholder: 'Select…',
-    colorRampMinClassesWarningPre: 'Color Ramp requires at least',
-    colorRampMinClassesWarningPost: 'classes',
-    symbolizer: 'Symbolizer',
-    classification: 'Classification Method',
-    classificationPlaceholder: 'Select…',
-    equalInterval: 'Equal Interval',
-    preview: 'Color Preview',
-    numberOfRulesViaKmeans: '…affected by k-Means classification.',
-    allDistinctValues: 'Use all distinct values'
+    attribute: 'Svojstvo',
+    generateButtonText: 'Klasificirati',
+    levelOfMeasurement: 'Nivo mjere',
+    nominal: 'Nominalo',
+    ordinal: 'Redni',
+    cardinal: 'Glavni',
+    numberOfRules: 'Broj klasa',
+    colorRamp: 'Intenzitet boje',
+    colorSpace: 'Paleta boja',
+    colorRampPlaceholder: 'Odabir...',
+    colorRampMinClassesWarningPre: 'Intenzitet boja zahtjeva barem',
+    colorRampMinClassesWarningPost: 'Klase',
+    symbolizer: 'Simbolizator',
+    classification: 'Metoda klasifikacije',
+    classificationPlaceholder: 'Odabir...',
+    equalInterval: 'Jednaki interval',
+    preview: 'Pretpregled boje',
+    numberOfRulesViaKmeans: '...utjecano od strane k-centar klasifikacije.',
+    allDistinctValues: 'Koristi sve različite vrijednosti'
   },
   ColorRampCombo: {
-    colorRampPlaceholder: 'Select…'
+    colorRampPlaceholder: 'Odabir...'
   },
   ColorSpaceCombo: {
-    colorSpacePlaceholder: 'Select…'
+    colorSpacePlaceholder: 'Odabir...'
   },
   ClassificationCombo: {
-    equalInterval: 'Equal Interval',
-    quantile: 'Quantile ',
-    logarithmic: 'Logarithmic',
-    kmeans: 'k-Means'
+    equalInterval: 'Jednaki interval',
+    quantile: 'Kvantitativna vrijednost ',
+    logarithmic: 'Logaritamska vijednost',
+    kmeans: 'k-centar'
   },
   RuleGeneratorWindow: {
-    ruleGenerator: 'Classification'
+    ruleGenerator: 'Klasificikacija'
   },
   IconSelectorWindow: {
-    windowLabel: 'Select Icon'
+    windowLabel: 'Odaberi ikonu'
   },
   IconSelector: {
-    librarySelectLabel: 'Select Library'
+    librarySelectLabel: 'Odaberi temu'
   },
   SLDUnitsSelect: {
-    symbolizerUnitsLabel: 'Symbolizer units',
-    symbolizerUnitsPixel: 'pixel',
-    symbolizerUnitsMeter: 'meter',
-    symbolizerUnitsFoot: 'foot'
+    symbolizerUnitsLabel: 'Jedinice simbolizatora',
+    symbolizerUnitsPixel: 'pksel',
+    symbolizerUnitsMeter: 'metar',
+    symbolizerUnitsFoot: 'stopa'
   },
   AttributeCombo: {
-    label: 'Attribute',
-    placeholder: 'Select Attribute',
-    help: 'Please select an attribute.'
+    label: 'Svojstvo',
+    placeholder: 'Odaberi atribut',
+    help: 'Odaberite atribut'
   },
   TextFilterField: {
-    label: 'Value',
-    placeholder: 'Enter Text Value',
-    help: 'Please enter a text.'
+    label: 'Vrijednost',
+    placeholder: 'Unesite tekst',
+    help: 'Unesite tekst'
   },
   NumberFilterField: {
-    label: 'Value',
-    placeholder: 'Enter Numeric Value',
-    help: 'Please enter a number.'
+    label: 'Vrijednost',
+    placeholder: 'Unesite brojčanu vrijednost',
+    help: 'Unesite brojčanu vrijednost'
   },
   BoolFilterField: {
-    label: 'Value'
+    label: 'Vrijednost'
   },
   UnsupportedPropertiesUtil: {
-    notSupported: 'Not supported by selected parser.',
-    partiallySupported: 'Only partially supported by selected parser.'
+    notSupported: 'Nije podržano od strane odabranog parsera.',
+    partiallySupported: 'Samo djelomično podržano od strane odabranog parsera.'
   },
   ...antd_hr_HR
 };
